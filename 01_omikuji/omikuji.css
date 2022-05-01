@@ -17,6 +17,8 @@ Arial,
 Meiryo,
 sans-serif;
 background: rgb(233, 168, 227);
+background-size: cover;
+overflow: hidden;
 }
 p{
 margin: 0;
