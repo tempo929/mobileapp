@@ -56,6 +56,8 @@ header{
     background: linear-gradient(#6795fd 0%,#afeeee 100%);
     box-shadow: 0 10px 0 grey;
     justify-content: center;
+    cursor:pointer;
+    user-select: none;
 }
 #btn1:hover{
     background: linear-gradient(#da70da 0%,pink 100%);
