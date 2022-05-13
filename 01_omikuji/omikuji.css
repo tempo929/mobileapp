@@ -93,3 +93,26 @@ footer p{
     background: rgb(26,212,212);
     cursor:pointer;
 }
+.shutter::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    margin: auto;
+    background-color: #fff;
+    animation: shutterOpen 2.5s forwards;
+
+}
+
+@keyframes byeShutter {
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+        z-index: -1;
+    }
+    }
