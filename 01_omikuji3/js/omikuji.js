@@ -45,12 +45,7 @@ function(){
 
     }*/
 
-    while ( n = nBefore){
-
-       n = Math.floor(Math.random() * resultText.length);
-        }
-    
-       nbefore = n;
+   
        
     if(soundEndflag === "1"){
         soundControl("end","");
@@ -70,7 +65,12 @@ function(){
 
   //let n= Math.floor(Math.random() * resultText.length);
 
+ while ( n = nBefore){
 
+       n = Math.floor(Math.random() * resultText.length);
+        }
+    
+       nbefore = n;
     
     omikujiTextImage.src =resultText[n];
 
