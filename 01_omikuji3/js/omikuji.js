@@ -1,7 +1,7 @@
 "use strict";
 
-let n;
-let nBefore;
+let n
+let nBefore
 
 window.addEventListener("DOMContentLoaded",
     function(){
@@ -45,8 +45,6 @@ function(){
 
     }*/
 
-   
-       
     if(soundEndflag === "1"){
         soundControl("end","");
     }
@@ -65,12 +63,14 @@ function(){
 
   //let n= Math.floor(Math.random() * resultText.length);
 
- while ( n = nBefore){
 
-       n = Math.floor(Math.random() * resultText.length);
-        }
-    
-       nbefore = n;
+  while ( n== nBefore){
+
+    n = Math.floor(Math.random() * resultText.length);
+    }
+
+  nBefore = n;
+   
     
     omikujiTextImage.src =resultText[n];
 
