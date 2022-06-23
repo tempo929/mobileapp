@@ -1,7 +1,7 @@
 "use strict";
 
-let n =" ";
-let nBefore=" ";
+let n;
+let nBefore;
 
 window.addEventListener("DOMContentLoaded",
     function(){
@@ -47,10 +47,10 @@ function(){
 
     while ( n = nBefore){
 
-        nBefore = Math.floor(Math.random() * resultText.length);
+       n = Math.floor(Math.random() * resultText.length);
         }
     
-       let n = nBefore;
+       nbefore = n;
        
     if(soundEndflag === "1"){
         soundControl("end","");
