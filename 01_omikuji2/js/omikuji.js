@@ -1,5 +1,9 @@
 "use strict";
 
+let n = ""; 
+
+let nBefore = ""; 
+
 window.addEventListener("DOMContentLoaded",
     function(){
         $("header").textillate({
@@ -60,7 +64,12 @@ function(){
     let resultSound = ["sound/omikuji_sound1.mp3","sound/omikuji_sound2.mp3",
     "sound/omikuji_sound3.mp3","sound/omikuji_sound4.mp3","sound/omikuji_sound5.mp3"];
 
-    let n= Math.floor(Math.random() * resultText.length);
+    //let n= Math.floor(Math.random() * resultText.length);
+    
+    while (n === nBefore){
+    n =Math.floor(Math.random() * resultText.length);}
+    nBefore = n; //nの値をsave
+    
     omikujiText.textContent = resultText[n];
     omikujiText.style.color= resultColor[n];
     omikujiText.style.fontSize = resultFontSize[n];
