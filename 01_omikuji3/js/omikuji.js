@@ -1,7 +1,7 @@
 "use strict";
 
-let n
-let nBefore
+let n =" ";
+let nBefore =" ";
 
 window.addEventListener("DOMContentLoaded",
     function(){
@@ -78,7 +78,7 @@ function(){
 
     omikujiTextImage.addEventListener("animationend",
     function(){
-        omikujiTextImage.classList.remove("omikijiPaper");
+        omikujiTextImage.classList.remove("omikujiPaper");
        },false
     );
  
