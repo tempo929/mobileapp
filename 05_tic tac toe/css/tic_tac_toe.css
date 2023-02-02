@@ -6,10 +6,7 @@ html {
 /* この指定(してい)はborderとpaddingをボックスサイズ(widthとheight)の中に含めて算出するので、スタイリングがしやすい*/
 *, *::before, *::after {
     box-sizing: border-box;
-    background-image: url(../img/sound.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+
 }
 body{
     margin: 0;
@@ -20,8 +17,11 @@ body{
     "Hiragino Sans",
     Meiryo,
     sans-serif;
-
-
+  
+    background-image: url(../img/sound.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     }
 
 p{
