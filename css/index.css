@@ -131,6 +131,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0;
 }
 /* fukuda-add */
 .fade-in{
@@ -155,6 +156,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0; 
 }
 
 .item01 img, .item02 img{
